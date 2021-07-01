@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/style.css"></link>
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>World War II Quiz</h1>
+        <button id="startButton">Begin</button>
+    </header>
+    <main>
+        <section id="quizContainer" class="hidden">Quiz Time
+            <div>
+                <div id="quizQuestion">
+                    Good Luck!
+                </div>
+                <div id="quizAnswerOptions">
+                    <button id="firstOption">firstOption</button>
+                    <button id="secondOption">secondOption</button>
+                    <button id="thirdOption">thirdOption</button>
+                    <button id="fourthOption">fourthOption</button>
+                </div>
+            </div>
+        </section>
+        <section id="timerContainer" class="hidden">
+            <div>
+                <p id="timerCount">Time Left</p>
+            </div>
+            </section>
+
+        <section id="scoreInput" class="hidden">
+            <input type="text" id="initials" maxlength="3">
+            <button id="saveScore">Save your score!</button>
+        </section>
+        <section id="highscore" class="hidden">
+            <button id="deleteHighScores">Delete High Scores</button> 
+            <ol id="scoreboard"></ol> 
+
+        </section>
+            
+
+        </section>
+    </main>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
